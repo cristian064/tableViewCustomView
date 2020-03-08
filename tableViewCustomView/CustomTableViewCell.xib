@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="IZu-Ss-Stp" customClass="CustomTableViewCell" customModule="tableViewCustomView" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="IZu-Ss-Stp" id="a7d-3y-ltX">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8GI-ta-XWh">
+                        <rect key="frame" x="15" y="0.0" width="384" height="44"/>
+                        <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="8GI-ta-XWh" firstAttribute="leading" secondItem="a7d-3y-ltX" secondAttribute="leading" constant="15" id="0ny-fJ-Wri"/>
+                    <constraint firstAttribute="bottom" secondItem="8GI-ta-XWh" secondAttribute="bottom" id="CxQ-R4-cap"/>
+                    <constraint firstAttribute="trailing" secondItem="8GI-ta-XWh" secondAttribute="trailing" constant="15" id="Exh-Kr-qVL"/>
+                    <constraint firstItem="8GI-ta-XWh" firstAttribute="top" secondItem="a7d-3y-ltX" secondAttribute="top" id="ckJ-T2-Sho"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="customView" destination="8GI-ta-XWh" id="JE6-Ma-AKi"/>
+            </connections>
+            <point key="canvasLocation" x="293" y="77"/>
+        </tableViewCell>
+    </objects>
+</document>
