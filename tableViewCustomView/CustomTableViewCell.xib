@@ -16,15 +16,18 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8GI-ta-XWh">
-                        <rect key="frame" x="15" y="0.0" width="384" height="44"/>
+                        <rect key="frame" x="15" y="5" width="384" height="34"/>
                         <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="34" id="fKc-Mf-XKK"/>
+                        </constraints>
                     </view>
                 </subviews>
                 <constraints>
                     <constraint firstItem="8GI-ta-XWh" firstAttribute="leading" secondItem="a7d-3y-ltX" secondAttribute="leading" constant="15" id="0ny-fJ-Wri"/>
-                    <constraint firstAttribute="bottom" secondItem="8GI-ta-XWh" secondAttribute="bottom" id="CxQ-R4-cap"/>
+                    <constraint firstAttribute="bottom" secondItem="8GI-ta-XWh" secondAttribute="bottom" constant="5" id="CxQ-R4-cap"/>
                     <constraint firstAttribute="trailing" secondItem="8GI-ta-XWh" secondAttribute="trailing" constant="15" id="Exh-Kr-qVL"/>
-                    <constraint firstItem="8GI-ta-XWh" firstAttribute="top" secondItem="a7d-3y-ltX" secondAttribute="top" id="ckJ-T2-Sho"/>
+                    <constraint firstItem="8GI-ta-XWh" firstAttribute="top" secondItem="a7d-3y-ltX" secondAttribute="top" constant="5" id="ckJ-T2-Sho"/>
                 </constraints>
             </tableViewCellContentView>
             <connections>
